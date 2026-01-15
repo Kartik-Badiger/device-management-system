@@ -13,3 +13,21 @@ public class PasswordConfig {
         return new BCryptPasswordEncoder();
     }
 }
+//$2a$10$Zo/Yb5e1v349zd1WPUKTTeO215nMsjnAjrrLuZMzZ1nVXbvLGO10q
+
+//INSERT INTO users (
+//        username,
+//        email,
+//        password,
+//        role_id,
+//        default_password,
+//        created_at
+//        )
+//VALUES (
+//  'admin',
+//          'admin@test.com',
+//          '$2a$10$Zo/Yb5e1v349zd1WPUKTTeO215nMsjnAjrrLuZMzZ1nVXbvLGO10q',
+//          1,
+//          true,
+//  now()
+//);
